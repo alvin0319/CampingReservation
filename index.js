@@ -105,7 +105,7 @@ async function checkReservation(){
 						date: date
 					}), {
 						headers: {
-							Cookie: "JSESSIONID=" + JSESSIONID + "; ids=" + config.id + ";",
+							Cookie: JSESSIONID + "; ids=" + config.id + ";",
 							Accept: "application/json, text/javascript, */*; q=0.01",
 							"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36",
 							"X-Requested-With": "XMLHttpRequest",
